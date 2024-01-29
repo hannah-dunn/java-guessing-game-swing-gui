@@ -17,3 +17,6 @@ public class TextAreaOutputStream extends OutputStream {
         textArea.setCaretPosition(textArea.getDocument().getLength());
     }
 }
+
+// this is here so that outputs that were system.out.println() or errors 
+// are redirected to the JTextArea instead of printed in console
